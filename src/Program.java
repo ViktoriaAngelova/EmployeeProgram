@@ -23,7 +23,7 @@ public final class Program {
 	}
 
 	public static List<String> getLinesOfInput(int numberOfLines) {
-		List<String> linesOfInput = new ArrayList<String>();
+		List<String> linesOfInput = new ArrayList<>();
 		while (numberOfLines-- > 0) {
 			linesOfInput.add(input.nextLine());
 		}
@@ -32,7 +32,7 @@ public final class Program {
 	}
 
 	public static List<Employee> getListOfEmployees(final List<String> linesOfInput) {
-		List<Employee> employees = new ArrayList<Employee>();
+		List<Employee> employees = new ArrayList<>();
 		Employee employee;
 
 		for (String inputData : linesOfInput) {
@@ -43,7 +43,7 @@ public final class Program {
 	}
 
 	public static List<Department> getListOfDepartments(final List<Employee> employees) {
-		List<Department> departments = new ArrayList<Department>();
+		List<Department> departments = new ArrayList<>();
 		Department department;
 		
 		for (Employee employee : employees) {
